@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: currentColor;
+}
+
+.blog-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    box-shadow: 0 0 5px red;
+}
+
+registr{
+    display: flex;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px
+}
+
+.creator {
+    color: white;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: red;
+}
+.content{
+    display: grid;
+    grid-template-columns: 20% auto;
+    margin: 30px 10px;
+    height: 240px;
+}
+img{
+    cursor: pointer;
+    height: 200px;
+    width: 147px;
+    box-shadow: -21px 10px 4px rgb(52,52,52);
+
+
+}
+img:hover {
+    transition: 1s;
+    transform: scale(1.1);
+
+
+}
+
+
+
+.img_block{
+    text-align: center;
+
+}
+
+.reg {
+    margin-left: 10px;
+}
+
+.content_form{
+    display: flex;
+    justify-content: center;
+    /*display: grid;*/
+    /*grid-template-columns: 20% auto 20%;*/
+}
+
+.form {
+
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+}
+
+.form-title{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.form-title__blog{
+    color: white;
+}
+
+.inputs {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 200px
+
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.password {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 100%;
+    margin: 7px 10px 0px 0px;
+    text-align: center;
+
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    position: fixed;
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+.style {
+    height: 150px;
+    width: 140px;
+
+}
+.about_book{
+    padding: 10px 20px 10px 20px;
+}
+.entrance{
+    border: none;
+    background: red;
+
+
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 7px;
+    outline: none !important;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.9px;
+}
+
+
+.register_btn {
+    border: none;
+    background: red;
+
+
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 7px;
+    outline: none !important;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.9px;
+
+}
+.int{
+    color: red;
+}
+.btn1{
+    border: none;
+    width: 90px;
+    height: 35px;
+    /* color: black; */
+    background-color: aquamarine;
+    border-radius: 7px;
+}
